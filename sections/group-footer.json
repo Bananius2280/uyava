@@ -1,0 +1,83 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "94e189c6-b9d4-4ef2-909c-7929a16ef9f7": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "info",
+            "title": "",
+            "column_width": 22
+          }
+        },
+        "d96d1f0c-0836-4f16-b029-99a25b80133d": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "info-legal",
+            "title": "",
+            "column_width": 22
+          }
+        },
+        "5b4dd9f4-7bf1-43a4-8117-e1f6b97e2b3e": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer",
+            "title": "SOCIAL",
+            "column_width": 22
+          }
+        },
+        "footer-0": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+            "show_name": true,
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "column_width": 27
+          }
+        }
+      },
+      "block_order": [
+        "94e189c6-b9d4-4ef2-909c-7929a16ef9f7",
+        "d96d1f0c-0836-4f16-b029-99a25b80133d",
+        "5b4dd9f4-7bf1-43a4-8117-e1f6b97e2b3e",
+        "footer-0"
+      ],
+      "settings": {
+        "logo": "{{ shop.brand.logo }}",
+        "logo_image_width": 150,
+        "overlay_opacity": 75,
+        "overlay_color": "#ffffff",
+        "border_color": "#212121",
+        "padding_top": 75,
+        "padding_bottom": 30
+      }
+    },
+    "supporting-menu": {
+      "type": "section-supporting-menu",
+      "settings": {
+        "linklist": "",
+        "footer_payment_enable": false,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "supporting-menu"
+  ]
+}
