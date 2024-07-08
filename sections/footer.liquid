@@ -78,9 +78,9 @@
                 {%- assign linklist = linklists[block.settings.linklist] -%}
                 {%- assign linklist_title = title | default: linklist.title -%}
                 <div class="footer__block footer__block--menu" style="{{ block_style }}" {{ block.shopify_attributes }}>
-                  {%- if linklist_title != blank -%}
+                  {% comment %} {%- if linklist_title != blank -%}
                     <h2 class="h5 footer__block__title">{{ linklist_title | escape }}</h2>
-                  {%- endif -%}
+                  {%- endif -%} {% endcomment %}
 
                   {%- if linklist != blank -%}
                     <ul class="footer__quicklinks unstyled">
@@ -107,9 +107,9 @@
 
               {%- when 'social' -%}
                 <div class="footer__block footer__block--social" style="{{ block_style }}" {{ block.shopify_attributes }}>
-                  {%- if title != blank -%}
+                  {% comment %} {%- if title != blank -%}
                     <h2 class="h5 footer__block__title">{{ title | escape }}</h2>
-                  {%- endif -%}
+                  {%- endif -%} {% endcomment %}
 
                   {%- if text != blank -%}
                     <div class="rte footer__social__text">{{ text }}</div>

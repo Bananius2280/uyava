@@ -3882,6 +3882,7 @@ h6,
 .article__author-bio h3,
 .blog-section .article__image .article__tags {
   font-family: var(--FONT-STACK-HEADING);
+  /* font-family: "HelveticaBold", serif; */
   font-style: var(--FONT-STYLE-HEADING);
   font-weight: var(--FONT-WEIGHT-HEADING);
   letter-spacing: var(--LETTER-SPACING-HEADING);
@@ -3933,6 +3934,7 @@ h6 strong,
 
 body {
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-style: var(--FONT-STYLE-BODY);
   font-weight: var(--FONT-WEIGHT-BODY);
   letter-spacing: var(--LETTER-SPACING-BODY);
@@ -3954,8 +3956,9 @@ body {
 .h5--body,
 .h6--body {
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-style: var(--FONT-STYLE-BODY);
-  font-weight: var(--FONT-WEIGHT-BODY);
+  font-weight: var(--FONT-WEIGHT-BODY); 
   letter-spacing: var(--LETTER-SPACING-BODY);
   text-transform: none;
   margin: 0.5em 0;
@@ -4011,13 +4014,15 @@ p small {
 
 .font-body {
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-style: var(--FONT-STYLE-BODY);
-  font-weight: var(--FONT-WEIGHT-BODY);
+  font-weight: var(--FONT-WEIGHT-BODY); 
   letter-spacing: var(--LETTER-SPACING-BODY);
 }
 
 .font-heading {
   font-family: var(--FONT-STACK-HEADING);
+  font-family: "HelveticaBold", serif;
   font-style: var(--FONT-STYLE-HEADING);
   font-weight: var(--FONT-WEIGHT-HEADING);
   letter-spacing: var(--LETTER-SPACING-HEADING);
@@ -4548,7 +4553,8 @@ hr.hr--color,
 .badge-box, .search-submit {
   text-transform: uppercase;
   font-family: var(--FONT-STACK-BODY);
-  font-weight: var(--FONT-WEIGHT-BODY);
+  font-family: "HelveticaLight", serif;
+  font-weight: var(--FONT-WEIGHT-BODY); 
   font-size: calc(11px * var(--FONT-ADJUST-BODY));
   letter-spacing: var(--LETTER-SPACING-BODY);
 }
@@ -5463,8 +5469,9 @@ select,
 .popout__toggle,
 .input-group {
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-style: var(--FONT-STYLE-BODY);
-  font-weight: var(--FONT-WEIGHT-BODY);
+  font-weight: var(--FONT-WEIGHT-BODY); 
   letter-spacing: var(--LETTER-SPACING-BODY);
   border: 1px solid var(--COLOR-BORDER);
   font-size: var(--FONT-SIZE-BASE);
@@ -6298,6 +6305,7 @@ img.fit-cover {
 .drawer__head h3 {
   text-transform: uppercase;
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-weight: var(--FONT-WEIGHT-BODY);
   font-size: calc(11px * var(--FONT-ADJUST-BODY));
   letter-spacing: var(--LETTER-SPACING-BODY);
@@ -6502,6 +6510,7 @@ img.fit-cover {
 
 .cart__item__title {
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-style: var(--FONT-STYLE-BODY);
   font-weight: var(--FONT-WEIGHT-BODY);
   letter-spacing: var(--LETTER-SPACING-BODY);
@@ -11633,6 +11642,7 @@ body {
   display: block;
   padding: 0;
   width: 100%;
+  font-family: "HelveticaLight", serif;
   font-weight: var(--FONT-WEIGHT-BODY);
   font-size: calc(var(--font-3) * var(--FONT-ADJUST-BODY));
 }
@@ -11670,6 +11680,7 @@ body {
 .radio__legend__link {
   display: flex;
   align-items: center;
+  font-family: "HelveticaLight", serif;
   font-weight: var(--FONT-WEIGHT-BODY);
   transition: color 0.3s ease, background 0.3s ease;
 }
@@ -12597,6 +12608,7 @@ body {
 
 .product-item__title {
   position: relative;
+  font-family: "HelveticaLight", serif;
   font-weight: var(--FONT-WEIGHT-BODY);
   font-size: calc(1rem * var(--FONT-ADJUST-BODY));
   color: inherit;
@@ -12729,6 +12741,7 @@ body {
   display: block;
   margin: 3px 0 5px;
   font-size: calc(0.75rem * var(--FONT-ADJUST-BODY));
+  font-family: "HelveticaLight", serif;
   font-weight: var(--FONT-WEIGHT-BODY);
   color: var(--COLOR-LINK);
 }
@@ -13497,6 +13510,7 @@ body.has-header-transparent.has-first-section-overlay-header .product__content {
   text-align: center;
   text-transform: uppercase;
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-weight: var(--FONT-WEIGHT-BODY);
   font-size: calc(11px * var(--FONT-ADJUST-BODY));
   letter-spacing: var(--LETTER-SPACING-BODY);
@@ -14302,6 +14316,7 @@ input[type=radio].variant-input {
   line-height: 1.6;
   position: relative;
   display: inline-block;
+  font-family: "HelveticaLight", serif;
   font-weight: var(--FONT-WEIGHT-BODY);
   padding: 7px 15px;
   border-radius: var(--RADIUS);
@@ -15067,6 +15082,7 @@ a.review {
 
 .review__content blockquote {
   font-family: var(--FONT-STACK-HEADING);
+  font-family: "HelveticaBold", serif;
   font-style: var(--FONT-STYLE-HEADING);
   font-weight: var(--FONT-WEIGHT-HEADING);
   letter-spacing: var(--LETTER-SPACING-HEADING);
@@ -15877,6 +15893,7 @@ a.review {
 .cart__title {
   text-transform: uppercase;
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-weight: var(--FONT-WEIGHT-BODY);
   font-size: calc(11px * var(--FONT-ADJUST-BODY));
   letter-spacing: var(--LETTER-SPACING-BODY);
@@ -16775,6 +16792,10 @@ popout-select {
   transition: max-width 0s, opacity 0.4s ease, visibility 0.4s;
 }
 
+.popout-header .popout-list__language .popout-list--visible, .popout-footer .popout-list__language .popout-list--visible{
+  max-width: 60px;
+}
+
 .popout-list__item {
   padding: 0;
   margin: 0;
@@ -17231,6 +17252,7 @@ popout-select {
 }
 .blog-listing .article__tags {
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-style: var(--FONT-STYLE-BODY);
   font-weight: var(--FONT-WEIGHT-BODY);
   letter-spacing: var(--LETTER-SPACING-BODY);
@@ -17303,6 +17325,7 @@ body.has-line-design .blog-listing .article__image {
   margin-bottom: 16px;
   font-size: calc(var(--font-1) * var(--FONT-ADJUST-BODY));
   line-height: 1.4;
+  font-family: "HelveticaLight", serif;
   font-weight: var(--FONT-WEIGHT-BODY);
   color: var(--text-light);
 }
@@ -17651,6 +17674,7 @@ body.has-header-transparent .section-overlay-header:first-of-type .article__hero
 @media only screen and (max-width: 749px) {
   .comment-meta {
     margin: 6px 0;
+    font-family: "HelveticaLight", serif;
     font-weight: var(--FONT-WEIGHT-BODY);
     color: var(--text-light);
   }
@@ -17749,6 +17773,7 @@ body.has-header-transparent .section-overlay-header:first-of-type .article__hero
 .widget__title {
   font-size: calc(1rem * var(--FONT-ADJUST-HEADING));
   line-height: 1.4;
+  font-family: "HelveticaLight", serif;
   font-weight: var(--FONT-WEIGHT-BODY);
   padding-bottom: 8px;
   margin: 0 0 15px;
@@ -17782,7 +17807,8 @@ body.has-header-transparent .section-overlay-header:first-of-type .article__hero
 }
 
 .widget__links .submenu {
-  font-weight: var(--FONT-WEIGHT-BODY);
+  font-family: "HelveticaLight", serif;
+  font-weight: var(--FONT-WEIGHT-BODY); 
   margin: 4px 0 4px 2px;
   padding: 0 0 0 15px;
   border-left: 2px solid var(--COLOR-BORDER);
@@ -18005,6 +18031,7 @@ body.has-header-transparent .section-overlay-header:first-of-type .article__hero
     pointer-events: none;
     text-transform: uppercase;
     font-family: var(--FONT-STACK-BODY);
+    font-family: "HelveticaLight", serif;
     font-weight: var(--FONT-WEIGHT-BODY);
     font-size: calc(11px * var(--FONT-ADJUST-BODY));
     letter-spacing: var(--LETTER-SPACING-BODY);
@@ -18031,6 +18058,7 @@ body.has-header-transparent .section-overlay-header:first-of-type .article__hero
 
 .editorial__meta {
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-style: var(--FONT-STYLE-BODY);
   font-weight: var(--FONT-WEIGHT-BODY);
   letter-spacing: var(--LETTER-SPACING-BODY);
@@ -18286,6 +18314,7 @@ body.has-header-transparent .section-overlay-header:first-of-type .article__hero
 
 .collection-hover__button {
   font-family: var(--FONT-STACK-HEADING);
+  font-family: "HelveticaBold", serif;
   font-style: var(--FONT-STYLE-HEADING);
   font-weight: var(--FONT-WEIGHT-HEADING);
   letter-spacing: var(--LETTER-SPACING-HEADING);
@@ -21467,6 +21496,7 @@ body.grid-compact.has-line-design .brick__block__collection .look__slide {
 .pswp[data-pswp-option-classes*=pswp-zoom-gallery] .pswp__caption,
 .pswp-zoom-gallery .pswp__caption {
   font-family: var(--FONT-STACK-HEADING);
+  font-family: "HelveticaBold", serif;
   font-style: var(--FONT-STYLE-HEADING);
   font-weight: var(--FONT-WEIGHT-HEADING);
   letter-spacing: var(--LETTER-SPACING-HEADING);
@@ -21571,6 +21601,7 @@ body.is-focused .pswp-zoom-gallery .pswp__caption .pswp__caption-close:focus {
 }
 .popup-cookies .popup__title {
   font-family: var(--FONT-STACK-HEADING);
+  font-family: "HelveticaBold", serif;
   font-style: var(--FONT-STYLE-HEADING);
   font-weight: var(--FONT-WEIGHT-HEADING);
   letter-spacing: var(--LETTER-SPACING-HEADING);
@@ -21960,6 +21991,7 @@ predictive-search[open=true] .predictive-search {
 
 .predictive-search__heading {
   font-family: var(--FONT-STACK-HEADING);
+  font-family: "HelveticaBold", serif;
   font-style: var(--FONT-STYLE-HEADING);
   font-weight: var(--FONT-WEIGHT-HEADING);
   letter-spacing: var(--LETTER-SPACING-HEADING);
@@ -22083,6 +22115,7 @@ predictive-search[open=true] .predictive-search {
 
 .product-upsell__title {
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-style: var(--FONT-STYLE-BODY);
   font-weight: var(--FONT-WEIGHT-BODY);
   letter-spacing: var(--LETTER-SPACING-BODY);
@@ -22092,6 +22125,7 @@ predictive-search[open=true] .predictive-search {
 
 .product-upsell__variant-title {
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-style: var(--FONT-STYLE-BODY);
   font-weight: var(--FONT-WEIGHT-BODY);
   letter-spacing: var(--LETTER-SPACING-BODY);
@@ -22112,6 +22146,7 @@ predictive-search[open=true] .predictive-search {
 
 .product-upsell__price {
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-style: var(--FONT-STYLE-BODY);
   font-weight: var(--FONT-WEIGHT-BODY);
   letter-spacing: var(--LETTER-SPACING-BODY);
@@ -22120,6 +22155,7 @@ predictive-search[open=true] .predictive-search {
 
 .product-upsell__price .unit {
   font-family: var(--FONT-STACK-BODY);
+  font-family: "HelveticaLight", serif;
   font-style: var(--FONT-STYLE-BODY);
   font-weight: var(--FONT-WEIGHT-BODY);
   letter-spacing: var(--LETTER-SPACING-BODY);
@@ -22672,6 +22708,7 @@ dialog.is-loading .loader {
 
 .faq-list__item-title {
   margin-bottom: calc(var(--gutter) / 3);
+  font-family: "HelveticaBold", serif;
   font-size: calc(var(--font-3) * var(--FONT-ADJUST-HEADING));
   font-weight: var(--FONT-WEIGHT-HEADING);
 }

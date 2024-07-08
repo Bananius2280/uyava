@@ -12,7 +12,8 @@
   {%- unless settings.type_heading_font.system? and settings.type_base_font.system? -%}
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
   {%- endunless -%}
-
+  
+  {%- render 'font-face' -%}
   {{ 'theme.css' | asset_url | preload_tag: as: 'style' }}
   {{ 'vendor.js' | asset_url | preload_tag: as: 'script' }}
   {{ 'theme.js' | asset_url | preload_tag: as: 'script' }}

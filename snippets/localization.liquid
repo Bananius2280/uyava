@@ -48,7 +48,7 @@
 {%- if languages or countries -%}
   {%- form 'localization', class: parent_class, id: form_id -%}
     {%- if languages -%}
-      <div class="{{ parent_class }}__holder">
+      <div class="{{ parent_class }}__holder popout-list__language">
         <h2 class="visually-hidden" id="lang-heading-{{ unique }}">
           {{ 'layout.footer.language' | t }}
         </h2>
@@ -56,7 +56,13 @@
         <popout-select class="popout" submit>
           <button type="button" class="popout__toggle" aria-expanded="false" aria-controls="lang-list-{{ unique }}" aria-describedby="lang-heading-{{ unique }}" data-popout-toggle>
             <span data-popout-toggle-text>
-              {{ localization.language.endonym_name }}
+              {% if localization.language.endonym_name == 'українська' %}
+                UK
+              {% elsif localization.language.endonym_name == 'English' %}
+                EN
+              {% else %}
+                {{ localization.language.endonym_name }}
+              {% endif %}
             </span>
             {%- if show_icon -%}
               {%- render 'icon-nav-arrow-down' -%}
@@ -75,7 +81,15 @@
                   {% endif %}
                   data-value="{{ language.iso_code }}"
                   data-popout-option>
-                  <span>{{ language.endonym_name }}</span>
+                  <span>
+                    {% if language.endonym_name == 'українська' %}
+                      UK
+                    {% elsif language.endonym_name == 'English' %}
+                      EN
+                    {% else %}
+                      {{ language.endonym_name }}
+                    {% endif %} 
+                  </span>
                 </a>
               </li>
             {%- endfor -%}
@@ -100,9 +114,9 @@
         <popout-select class="popout" submit>
           <button type="button" class="popout__toggle" aria-expanded="false" aria-controls="country-list-{{ unique }}" aria-describedby="country-heading-{{ unique }}" data-popout-toggle>
             <span class="popout__toggle__text" data-popout-toggle-text>
-              {%- if show_country_flag -%}
+              {% comment %} {%- if show_country_flag -%}
                 {{ localization.country | image_url: width: 40 | image_tag: loading: 'lazy', class: 'popout__flag' }}
-              {%- endif -%}
+              {%- endif -%} {% endcomment %}
 
               {%- if show_country_name -%}
                 {{ localization.country.name }}
@@ -128,9 +142,9 @@
                   {% endif %}
                   data-value="{{ country.iso_code }}"
                   data-popout-option>
-                  {%- if show_country_flag -%}
+                  {% comment %} {%- if show_country_flag -%}
                     {{ country | image_url: width: 40 | image_tag: loading: 'lazy', class: 'popout__flag' }}
-                  {%- endif -%}
+                  {%- endif -%} {% endcomment %}
 
                   <span>
                     {{ country.name }}
