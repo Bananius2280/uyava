@@ -527,5 +527,18 @@
       "newsletter_signup": "Newsletter Signup",
       "login": "Login"
     }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    },
+    "checkout": {
+      "order_summary": {
+        "free_total_label": "According to Nova Poshta tariffs"
+      },
+      "shipping": {
+        "free_rate_label": "According to Nova Poshta tariffs"
+      }
+    }
   }
 }

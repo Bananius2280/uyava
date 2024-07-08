@@ -21,10 +21,20 @@
             "column_width": 22
           }
         },
+        "social_nPYqTm": {
+          "type": "social",
+          "settings": {
+            "title": "SOCIAL",
+            "text": "",
+            "column_width": 22,
+            "enable_follow_on_shop": false
+          }
+        },
         "5b4dd9f4-7bf1-43a4-8117-e1f6b97e2b3e": {
           "type": "linklist",
+          "disabled": true,
           "settings": {
-            "linklist": "footer",
+            "linklist": "social",
             "title": "SOCIAL",
             "column_width": 22
           }
@@ -49,6 +59,7 @@
       "block_order": [
         "94e189c6-b9d4-4ef2-909c-7929a16ef9f7",
         "d96d1f0c-0836-4f16-b029-99a25b80133d",
+        "social_nPYqTm",
         "5b4dd9f4-7bf1-43a4-8117-e1f6b97e2b3e",
         "footer-0"
       ],

@@ -18,9 +18,9 @@
     "footer_border": "#212121",
     "footer_text": "#212121",
     "footer_link": "#212121",
-    "type_heading_font": "helvetica_n7",
+    "type_heading_font": "nunito_n3",
     "type_heading_size": 80,
-    "type_base_font": "helvetica_n3",
+    "type_base_font": "nunito_n3",
     "type_body_size": 100,
     "btn_font": "avenir_next_n4",
     "btn_border_style": "square",
@@ -32,29 +32,32 @@
     "btn_secondary_border_color": "#ab8c52",
     "product_grid_outline": false,
     "show_scroll_top_button": true,
-    "product_grid_aspect_ratio": 1,
+    "instagram_link": "https:\/\/www.instagram.com\/nukot_handbags\/",
+    "product_grid_aspect_ratio": 1.2,
     "sale_bg_color": "rgba(0,0,0,0)",
     "sale_text_color": "#d20000",
     "badge_bg_color": "#ffffff",
     "badge_text_color": "#212121",
+    "show_siblings": false,
     "color_swatches": false,
     "variant_on_sale": true,
-    "swatch_style": "circle",
+    "swatch_style": "square",
     "sibling_style": "image",
     "favicon": "shopify:\/\/shop_images\/4.png",
-    "show_free_shipping_message": true,
+    "show_free_shipping_message": false,
     "message": "You are ||amount|| away from free shipping.",
-    "free_shipping_limit": "200",
+    "free_shipping_limit": "",
     "cart_custom_message_text": "",
-    "checkout_logo_position": "left",
+    "checkout_logo_image": "shopify:\/\/shop_images\/1.png",
+    "checkout_logo_position": "center",
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#fff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_heading_font": "Open Sans",
     "checkout_body_font": "Open Sans",
-    "checkout_accent_color": "#c5aa76",
-    "checkout_button_color": "#c5aa76",
+    "checkout_accent_color": "#212121",
+    "checkout_button_color": "#212121",
     "checkout_error_color": "#c85c42",
     "link_hover_color": "#bcb2a8",
     "header_link_hover": "#AB8C52",
@@ -66,7 +69,33 @@
     "sale_background_color": "#be563f",
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "12198985164985445843": {
+        "type": "shopify:\/\/apps\/nova-eu-cookie-bar-gdpr\/blocks\/app-embed\/6667ecbd-70cf-4527-84a9-e6037e6ca706",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "12793297677437526120": {
+        "type": "shopify:\/\/apps\/t-lab-ai-language-translate\/blocks\/custom_translations\/b5b83690-efd4-434d-8c6a-a5cef4019faf",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "2102808784413787648": {
+        "type": "shopify:\/\/apps\/kb-back-in-stock\/blocks\/main-app-embed\/147a6f7f-6771-4f9b-8dc6-c14e6b24f32c",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "2153490007123654574": {
+        "type": "shopify:\/\/apps\/consentmo-gdpr\/blocks\/gdpr_cookie_consent\/4fbe573f-a377-4fea-9801-3ee0858cae41",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Clean": {

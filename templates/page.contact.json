@@ -3,8 +3,18 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
         "align_text": "text-center",
-        "bg_color": "#f7f7f7"
+        "width": "wrapper",
+        "bg_color": "#f7f7f7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "contact": {
@@ -13,16 +23,22 @@
         "Name": {
           "type": "text",
           "settings": {
+            "title": "Full Name",
+            "required": false
           }
         },
         "Email": {
           "type": "email",
           "settings": {
+            "title": "Email",
+            "required": true
           }
         },
         "Message": {
           "type": "body",
           "settings": {
+            "title": "Message",
+            "required": true
           }
         },
         "Optional-text": {
@@ -34,7 +50,8 @@
         "Urgent-checkbox": {
           "type": "checkbox",
           "settings": {
-            "title": "This is urgent"
+            "title": "This is urgent",
+            "required": false
           }
         },
         "Options-select": {
@@ -58,8 +75,13 @@
         "Urgent-checkbox",
         "Options-select"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "bg_color": "",
+        "color": "",
         "padding_top": 50,
         "padding_bottom": 50
       }
@@ -76,16 +98,34 @@
         "question-1": {
           "type": "question",
           "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
           }
         },
         "question-2": {
           "type": "question",
           "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
           }
         },
         "question-3": {
           "type": "question",
           "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
           }
         }
       },
@@ -98,7 +138,10 @@
       "disabled": true,
       "settings": {
         "width": "wrapper--narrow",
+        "columns": "1",
         "bg_color": "#fafafa",
+        "color": "",
+        "border_color": "",
         "padding_top": 50,
         "padding_bottom": 50
       }

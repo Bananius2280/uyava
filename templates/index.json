@@ -6,8 +6,8 @@
         "slideshow-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/35.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/bd35.jpg",
+            "image": "shopify:\/\/shop_images\/BannerResizeCrop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/23resizeCrop.jpg",
             "overlay_opacity": 10,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -38,11 +38,11 @@
         "slideshow-0"
       ],
       "settings": {
-        "height": "screen-height-full",
+        "height": "image-height",
         "mobile_height": "screen-height-full--mobile",
         "width": "wrapper--full",
         "transition": "slide",
-        "show_arrows": true,
+        "show_arrows": false,
         "autoplay": false,
         "autoplay_speed": 8
       }
@@ -91,7 +91,7 @@
             "bg_color": "",
             "color": "#ffffff",
             "first_button_text": "BAGUETTE IN LEMON",
-            "first_button_link": "shopify:\/\/collections\/baguette-bags",
+            "first_button_link": "shopify:\/\/products\/baguette-bag-suede-cedro",
             "first_button_type": "btn--white",
             "first_button_size": "",
             "first_button_style": "btn--text",
@@ -138,7 +138,7 @@
             "bg_color": "",
             "color": "#ffffff",
             "first_button_text": "TIMELESS LEATHER",
-            "first_button_link": "shopify:\/\/collections\/all",
+            "first_button_link": "shopify:\/\/collections\/all-bag",
             "first_button_type": "btn--white",
             "first_button_size": "",
             "first_button_style": "btn--text",
@@ -558,10 +558,10 @@
           "type": "products",
           "settings": {
             "product_list": [
-              "baguette-bag-red",
-              "baguette-bag-suede-сhocco",
-              "card-holder-blue",
-              "baguette-bag"
+              "hobo-black",
+              "hobo-bags-suede-choco",
+              "hobo-bag-suede-toffee",
+              "hobo-caramel"
             ],
             "layout_mobile": "slider"
           }

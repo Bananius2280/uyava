@@ -20,6 +20,14 @@
             "padding_bottom": 16
           }
         },
+        "siblings_cVFKQN": {
+          "type": "siblings",
+          "settings": {
+            "siblings_collection": "{{ product.metafields.theme.siblings.value }}",
+            "sibling_color": "{{ product.metafields.theme.sibling_color.value }}",
+            "padding_bottom": 16
+          }
+        },
         "variants": {
           "type": "variants",
           "disabled": true,
@@ -34,7 +42,7 @@
           "type": "buttons",
           "settings": {
             "show_quantity": true,
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": false,
             "padding_bottom": 32
           }
@@ -102,6 +110,7 @@
       "block_order": [
         "title",
         "price",
+        "siblings_cVFKQN",
         "variants",
         "buttons",
         "pickup",
