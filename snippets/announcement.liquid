@@ -133,6 +133,10 @@
         <div{% if section.settings.layout == 'slider' %} data-ticker-text{% endif %} class="announcement__image" style="width: {{ image_width }}px; height: {{ image_width | divided_by: image_aspect_ratio }}px;">
           {%- render 'image' image: image, sizes: sizes, width: width, widths: widths, show_backfill: false -%}
         </div>
+      {%- elsif block.type == 'product' -%}
+      <div class="product-block">
+        {% render 'product-grid-item', product: block.settings.product_, animation_delay: animation_delay, index: forloop.index %}
+      </div>
       {%- else -%}
         <div {{ font_options }}>
           {%- case block.type -%}

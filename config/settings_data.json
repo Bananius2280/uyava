@@ -71,12 +71,6 @@
 
     ],
     "blocks": {
-      "12198985164985445843": {
-        "type": "shopify:\/\/apps\/nova-eu-cookie-bar-gdpr\/blocks\/app-embed\/6667ecbd-70cf-4527-84a9-e6037e6ca706",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "12793297677437526120": {
         "type": "shopify:\/\/apps\/t-lab-ai-language-translate\/blocks\/custom_translations\/b5b83690-efd4-434d-8c6a-a5cef4019faf",
         "disabled": false,

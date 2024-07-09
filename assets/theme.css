@@ -7574,6 +7574,34 @@ body.grid-classic .grandparent .menu__blocks:last-child .menu__block:last-child 
   transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.35s cubic-bezier(0.215, 0.61, 0.355, 1), color 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
+.product-block .product-item__image{
+  padding-top: 14vw;
+}
+
+@media only screen and (max-width: 1500px) {
+  .product-block .product-item__image {
+      padding-top: 18vw;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+  .product-block .product-item__image {
+    padding-top: 22vw;
+  }
+}
+
+@media only screen and (max-width: 749px) {
+  .product-block .product-item__image {
+    padding-top: 30vw;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .product-block .product-item__image {
+    padding-top: 48vw;
+  }
+}
+
 /* Image Meganav */
 .header__dropdown:not(.is-visible) .header__dropdown__image,
 .header__dropdown:not(.is-visible) .image-wrapper {

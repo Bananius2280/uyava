@@ -600,6 +600,62 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "section_announcement_RjgJDK": {
+      "type": "section-announcement",
+      "blocks": {
+        "product_WQGwrD": {
+          "type": "product",
+          "settings": {
+            "product_": "hobo-black"
+          }
+        },
+        "product_DYWwBM": {
+          "type": "product",
+          "settings": {
+            "product_": "hobo-caramel"
+          }
+        },
+        "product_Q8rbEr": {
+          "type": "product",
+          "settings": {
+            "product_": "hobo-cream"
+          }
+        },
+        "product_tcqfmM": {
+          "type": "product",
+          "settings": {
+            "product_": "hobo-bag-choco"
+          }
+        },
+        "product_QtemeU": {
+          "type": "product",
+          "settings": {
+            "product_": "hobo-bag-choco"
+          }
+        }
+      },
+      "block_order": [
+        "product_WQGwrD",
+        "product_DYWwBM",
+        "product_Q8rbEr",
+        "product_tcqfmM",
+        "product_QtemeU"
+      ],
+      "settings": {
+        "show_border": false,
+        "layout": "marquee",
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "text_size": 2,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -614,6 +670,7 @@
     "hero",
     "logos",
     "icons",
-    "98630288-9129-4e79-a7da-be20eedc4f12"
+    "98630288-9129-4e79-a7da-be20eedc4f12",
+    "section_announcement_RjgJDK"
   ]
 }
